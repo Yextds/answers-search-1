@@ -23,7 +23,7 @@
       "showMore": true, // Display a link to see more facet options within a facet
       "searchOnChange": true,
 	  "fields": {
-        "c_departments": {
+        "c_departments.name": {
             "label": "Category"
         }
 	 }	
