@@ -16,21 +16,21 @@
       "entityId": "", // Set the ID of the entity to use for Q&A submissions, must be of entity type "Organization"
       "privacyPolicyUrl": "" // The fully qualified URL to the privacy policy
     },
-    **/   
+    **/      
     "Facets": {
       "expand": false, // Allow the user to expand and collapse the facets
       "showMore": true, // Display a link to see more facet options within a facet
       "searchOnChange": true,
-	  "fields": {
+	    "fields": {
         "c_departments.name": {
             "label": "Category"
         }
 	 }	
     },   
     "FilterLink": {
-      "changeFiltersText": "filter results", // Text that displays by default
-      "resetFiltersText": "reset filters", // Text when filters are applied
-      "clearSearchText": "clear search" // Text when there are no results, conducts an empty search
+      "changeFiltersText": "Filter results", // Text that displays by default
+      "resetFiltersText": "Reset filters", // Text when filters are applied
+      "clearSearchText": "Clear search" // Text when there are no results, conducts an empty search
     },
     "AppliedFilters": {
       "removable": true

@@ -1,7 +1,7 @@
 {{#> layouts/html }}
   {{#> script/core }}
     {{> cards/all }}
-    {{!-- {{> templates/vertical-map/collapsible-filters/page-setup }} --}}
+    {{> templates/vertical-map/collapsible-filters/page-setup }}
     {{> templates/vertical-map/script/searchbar }}
     {{> templates/vertical-map/script/spellcheck }}
     {{> templates/vertical-map/script/navigation }}
@@ -33,8 +33,8 @@
         <div class="Answers-resultsHeader">
           {{> templates/vertical-map/markup/verticalresultscount }}
           {{> templates/vertical-map/markup/appliedfilters }}
-          {{!-- {{> templates/vertical-map/collapsible-filters/markup/filterlink }} --}}
-          {{!-- {{> templates/vertical-map/collapsible-filters/markup/viewresultsbutton }} --}}
+          {{> templates/vertical-map/collapsible-filters/markup/filterlink }}
+          {{> templates/vertical-map/collapsible-filters/markup/viewresultsbutton }}
         </div>
         <!-- Uncomment the following div if you want to include filters, facets, or sort options  -->
         <div class="Answers-filtersWrapper js-answersFiltersWrapper CollapsibleFilters-inactive">
